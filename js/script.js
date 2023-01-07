@@ -21,9 +21,9 @@ class Folk {
   };
 }
 
-function roseTerribleHullabaloo() {
+const roseTerribleHullabaloo = () => {
   console.log(true);
-}
+};
 
 let inPartOfThe = {
   square: roseTerribleHullabaloo(),
@@ -67,7 +67,7 @@ class GreatMogul {
   accompaniedBy = () => {
     console.log(true);
   };
-  cleanedOut = (staindDress) => {
+  cleanedOut = () => {
     console.log(true);
   };
 }
@@ -135,18 +135,18 @@ climbTheObelisk = () => {
 let manInBathrobe = {
   whoGreetedTheNutcrackerAtTheGate: climbTheObelisk(),
   shoutText: " ",
-};
-const hitBell = (h) => {
-  if (h !== 3) {
-    h++;
-  }
-};
-const count = (n) => {
-  while (n !== 3) {
-    hitBell(h);
-    manInBathrobe.shoutText += "Кондитер! ";
-    n++;
-  }
+  hitBell: (h) => {
+    if (h !== 3) {
+      h++;
+    }
+  },
+  count: (n) => {
+    while (n !== 3) {
+      hitBell(h);
+      manInBathrobe.shoutText += "Кондитер! ";
+      n++;
+    }
+  },
 };
 
 situation.condition = "calm";
@@ -157,16 +157,16 @@ howCould = () => {
 
 let every = {
   rushedToEscape: howCould(),
-  brahmin: {},
 };
+
 let staindDress = true;
 new GreatMogul(options).cleanedOut(staindDress);
 
-putHisHeadOn = () => {
-  console.log(true);
+let brahmin = {
+  putHisHeadOn: () => {
+    console.log(true);
+  },
 };
-
-brahmin.putHisHeadOn();
 
 situation.mess = "subsided";
 situation.fun = "resumed";
