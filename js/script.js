@@ -67,7 +67,7 @@ class GreatMogul {
   accompaniedBy = () => {
     console.log(true);
   };
-  cleanedOut = () => {
+  cleanedOut = (staindDress) => {
     console.log(true);
   };
 }
@@ -159,7 +159,6 @@ let every = {
   rushedToEscape: howCould(),
   brahmin: {},
 };
-
 let staindDress = true;
 new GreatMogul(options).cleanedOut(staindDress);
 
